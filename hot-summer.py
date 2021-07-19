@@ -4,7 +4,7 @@ import numpy as np
 import sys
 
 width,height = 1024,1024 # in pixels
-colors = [(255/255, 169/255, 0), (255/255, 118/255, 0), (205/255, 17/255, 59/255), (82/255, 0, 106/255)]
+colors = [(1, 169/255, 0), (1, 118/255, 0), (205/255, 17/255, 59/255), (82/255, 0, 106/255)]
 audio = mpy.AudioFileClip(sys.argv[1])
 n_circles = 50
 
